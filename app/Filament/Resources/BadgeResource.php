@@ -79,10 +79,8 @@ class BadgeResource extends Resource
                         ->alignment(Alignment::Center)
                         ->label(false),
                 ])
-                    ->columnSpan(1),
 
-            ])
-            ->columns(3);
+            ]);
     }
 
     public static function getPages(): array
